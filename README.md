@@ -8,7 +8,7 @@ PHP installation.
 Requirements
 ------------
 
-You must provide your own `php-fpm.ini.j2`, `php-cli.ini.j2 and `php-fpm.conf` templates.
+You must provide your own `php-fpm.ini.j2`, `php-cli.ini.j2` and `php-fpm.conf` templates.
 
 Role Variables
 --------------
