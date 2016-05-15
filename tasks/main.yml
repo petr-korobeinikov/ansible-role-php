@@ -1,0 +1,10 @@
+---
+- name: install php
+  apt: name=php{{ php_version }}-{{ item }}={{ php_package_version }} state=present
+  with_items: "{{ php_modules }}"
+
+- name: copy php config
+  template: src={{ item.src }} dest={{ item.dest }}
+  with_items: "{{ php_config_templates }}"
+  notify:
+    - restart php{{ php_version }}-fpm
