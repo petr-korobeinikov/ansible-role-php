@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pkorobeinikov/ansible-role-php.svg?branch=master)](https://travis-ci.org/pkorobeinikov/ansible-role-php)
+
 ansible-role-php
 ================
 
