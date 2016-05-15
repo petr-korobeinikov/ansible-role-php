@@ -29,7 +29,7 @@ Example Playbook
     - hosts: servers
       roles:
         # Install php7.0
-        - role: ansible-role-php
+        - role: pkorobeinikov.php
           php_version: 7.0
           php_package_version: 7.0.6-9+donate.sury.org~trusty+2
           php_modules:
@@ -42,7 +42,7 @@ Example Playbook
             - { src: php/7.0/www.conf.j2, dest: /etc/php/7.0/fpm/pool.d/www.conf }
 
         # Install php5.6
-        - role: ansible-role-php
+        - role: pkorobeinikov.php
           php_version: 5.6
           php_package_version: 5.6.21-7+donate.sury.org~trusty+1
           php_modules:
