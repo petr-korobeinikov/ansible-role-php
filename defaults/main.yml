@@ -1,5 +1,5 @@
 ---
-php_version: 7.0
-php_package_version: 7.0.6-9+donate.sury.org~trusty+2
+php_version: ~
+php_package_version: ~
 php_modules: []
 php_config_templates: []
